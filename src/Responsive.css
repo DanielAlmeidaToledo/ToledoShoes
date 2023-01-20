@@ -1,0 +1,112 @@
+/* === MENU HAMBURGUER ===*/
+
+@media (max-width: 980px) and (min-width: 921px){
+
+  nav{
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+  }
+
+  .logo{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+  }
+
+  .sect1{
+    height: 420vh;
+  }
+
+  .allShoes{
+    width: 100%;
+    height: 405vh;
+  }
+
+  .filter{
+    display: none;
+  }
+
+  .shoes{
+    width: 320px;
+    height: 370px;
+    margin: 20px auto;
+  }
+  .shoes img{
+    width: 200px;
+    height: 250px;
+  }
+
+  .nav-ul li a{
+    display: none;
+  }
+}
+
+@media (max-width: 920px){
+  
+  nav{
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+  }
+
+  .logo{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+  }
+
+  .sect1{
+    height: 938vh;
+  }
+
+  .allShoes{
+    width: 100%;
+    height: 930vh;
+  }
+
+  .filter{
+    display: none;
+  }
+
+  .shoes{
+    width: 70%;
+    height: 70vh;
+    margin: 20px 15%;
+  }
+  .shoes img{
+    position: relative;
+    width: 60%;
+    height: 53vh;
+  }
+
+  .nav-ul li a{
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px){
+  .sect1{
+    height: 945vh;
+  }
+
+  .allShoes{
+    height: 935vh;
+  }
+
+  .shoes{
+    width: 80%;
+    height: 70vh;
+    margin: 20px 10%;
+  }
+
+  .shoes img{
+    position: relative;
+    width: 90%;
+    height: 53vh;
+  }
+}
+
